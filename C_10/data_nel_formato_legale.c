@@ -78,8 +78,7 @@ int main()
         printf("December");
         break;
     }
-    printf("Dated This %d day of %d, 20%d\n", day, mese, anno);
 
-
+printf("Dated this %d of %d , 20%d")
     return 0;
 }

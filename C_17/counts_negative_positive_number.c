@@ -12,6 +12,7 @@ int main(){
         scanf("%d", &input);
         arr[i]=input;
     }
-    printf("hai inserito i seguenti numeri %d", arr);
+    printf("hai inserito i seguenti numeri: ");
+    printf("%d\n", arr);
     return 0; 
 }

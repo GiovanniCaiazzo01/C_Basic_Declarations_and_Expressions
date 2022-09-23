@@ -15,8 +15,8 @@ int main(){
         arr[i] < 0 ? positive++ : negative++;
     }
 
-    for(int ocaz = 0; ocaz < 5; ocaz++){
-        printf("%d ", arr[ocaz]);
+    for(int j = 0; j < 5; j++){
+        printf("%d ", arr[j]);
     }
 
     positive > negative ? 

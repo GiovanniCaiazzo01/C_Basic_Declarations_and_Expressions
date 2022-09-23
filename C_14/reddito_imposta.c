@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#define SOGLIA_MINIMA  750f;
-#define SOGLIA_MASSIMA  7000f;
+#define SOGLIA_MINIMA  750
+#define SOGLIA_MASSIMA  7000
 
 int main(){
 
@@ -13,7 +13,7 @@ int main(){
         printf("1 del reddito \n");
     }
 
-     if(reddito > SOGLIA_MINIMA && reddito <= 2.250f) {
+    else if(reddito > SOGLIA_MINIMA && reddito <= 2.250f) {
         printf("7.50$ pi+ il 2 della quota sopra i 750$ \n");
      }
  
@@ -34,9 +34,8 @@ int main(){
     }
 
     else{
-    printf("Perfavore inserire una cifra numerica");
+    printf("Perfavore inserire una cifra numerica \n");
     }
-
 
     return 0;
 

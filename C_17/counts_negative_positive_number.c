@@ -11,8 +11,9 @@ int main(){
         printf("inserisci il primo numero:");
         scanf("%d", &input);
         arr[i]=input;
+        printf("%d\n", arr[i]);
+        
     }
-    printf("hai inserito i seguenti numeri: ");
-    printf("%d\n", arr);
+    
     return 0; 
 }

@@ -12,7 +12,10 @@ int main(){
         scanf("%d", &input);
         arr[i]=input;
         printf("%d\n", arr[i]);
-        
+    }
+
+    for(int ocaz = 0; ocaz < 5; ocaz++){
+        printf("%d\n", arr[ocaz]);
     }
     
     return 0; 

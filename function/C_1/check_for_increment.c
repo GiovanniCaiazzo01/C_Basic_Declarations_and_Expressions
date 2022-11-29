@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 #define TRUE 1
 #define FALSE 0
 
@@ -12,8 +14,22 @@ int arrayLen(int arr[])
     return count;
 }
 
+int readFile()
+{
+    int num;
+    FILE *fptr;
+    fptr = fopen("./demo.txt", "r");
+
+    fscanf(fptr, "%d", &num);
+    printf("%d\n", num);
+    fclose(fptr);
+    return num;
+}
+
 int main(void)
 {
+
+    printf("%d\n", readFile());
     int arr[] = {
         199,
         200,
